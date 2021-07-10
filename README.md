@@ -2,10 +2,6 @@
 
 A collection of techniques to generate art.
 
-# Painter
-
-A collection of techniques to generate art.
-
 ## Neural-net-random-art
 
 Create a grayscale or colour image with predefined size `image_height` and `image_width` using fully connected neural networks.The generation of images only requires python `numpy` and `matplotlib`.
