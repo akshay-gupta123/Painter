@@ -108,13 +108,14 @@ class MarkovChain(object):
         return Image.fromarray(img_out)
 
 def args_parser():
-    parser = argparse.ArgumentParser(description="Generate random art with a deep neural network")
+    parser = argparse.ArgumentParser(description="Generate markov chain version of your image")
     
     parser.add_argument("-img_path", metavar="", type=int, required=True,
                         help="Image path")
     
     parser.add_argument("-bucket-size", metavar="", type=int, default=10,
                         help="Bucket size for compressing colors. Default is 10")
+    
     parser.add_argument("-four_neighbour",type=bool,default=True,
                         help="Number of neighbours to use")
     

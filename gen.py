@@ -65,7 +65,7 @@ class Genetic:
         return i
 
 def args_parser():
-    parser = argparse.ArgumentParser(description="Generate random art with a deep neural network")
+    parser = argparse.ArgumentParser(description="Generate brush painting with genetic algorithm")
     
     parser.add_argument("-img_path", metavar="", type=int, required=True,
                         help="Image path")
